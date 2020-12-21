@@ -1,0 +1,35 @@
+* {
+  box-sizing:border-box;
+}
+
+body, main {
+  margin:0;
+  padding:0;
+}
+
+button {
+  background-color:rgba(0, 0, 0, 0);
+  border:0;
+  outline:none;
+}
+
+.btn-hover:hover {
+  cursor:pointer;
+}
+
+a {
+  color: inherit; 
+  font-size:inherit;
+  font-weight:inherit;
+  text-decoration: none; 
+  line-height: 1;
+}
+
+@font-face {
+  font-family: 'BMJUA';
+  src:
+      url("../resource/font/BMJUA_ttf.ttf") format('truetype'), 
+      url("../resource/font/BMJUA_otf.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
